@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:grocery_app/Utils/constants.dart';
+import 'package:grocery_app/utils/constants.dart';
 import 'package:grocery_app/widgets/bottom_nav_bar.dart';
 
 class GroceryOnBoard extends StatelessWidget {

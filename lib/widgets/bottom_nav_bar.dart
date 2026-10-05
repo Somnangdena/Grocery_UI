@@ -22,13 +22,14 @@ class _BottomNavBarState extends State<BottomNavBar> {
     return Scaffold(
       body: pages[currentIndex],
       bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: Colors.white,
         selectedItemColor: Colors.black,
         unselectedItemColor: Colors.black12,
         type: .fixed,
         showSelectedLabels: false,
         showUnselectedLabels: false,
         currentIndex: currentIndex,
-        
+
         onTap: (value) {
           setState(() {
             currentIndex = value;
